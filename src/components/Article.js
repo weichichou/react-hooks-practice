@@ -25,7 +25,7 @@ const Article = () => {
           value={article}
           onChange={(e) => setArticle(e.target.value)}
         ></input>
-        <button>Submit</button>
+        <button className="hollow success button small">Submit</button>
       </form>
       <ul>
         {articles.map((e) => (
