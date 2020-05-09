@@ -2,6 +2,7 @@ import React from "react";
 //import logo from "./logo.svg";
 import "./App.css";
 import Count from "./components/Count";
+import Article from "./components/Article";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
       </header> */}
       <Count />
+      <Article />
     </div>
   );
 }
